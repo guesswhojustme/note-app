@@ -1,8 +1,9 @@
+import Create from "../ui/create-note";
 
-export default function Create (){
+export default function CreateNote (){
     return (
         <div>
-            <p>Create Page</p>
+            <Create></Create>
         </div>
     );
 }
